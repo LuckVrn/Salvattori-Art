@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{  font-size: 3em;}
+h2{  font-size: 2em;}
+p{ font-size: 1.5;}  
+ul{ list-style: none;}
+
+body{ 
+    font-family: 'Roboto' , sans-serif;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    justify-content: center;
+    width: 100%;
+}
+
+.grid-galeria{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    
+}
+
+ul{
+    display: inline;
+    padding-right: 0.5em;
+}
+    
+.color-acento{
+    color: rgb(102, 14, 218);
+}
+
+
+button{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius:  10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: rgb(102, 14, 218);
+}
+button:hover{
+    background-color: rgb(71, 17, 143);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: aliceblue;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px ;
+    font-weight: bold;
+    color: rgb(102, 14, 218);
+    font-size: 1.5em;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-direction:column;
+    justify-content: space-between;
+
+}
+header .nav{
+    
+    display: inline-block;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 25px;
+    
+    
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+header a:hover{
+    color: rgb(102, 14, 218);
+}
+
+li{
+    display: inline-block;
+}
+
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: rgb(102, 14, 218);
+    background-image: url(/images/galeria/miguel\ ángel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+footer{
+
+    padding: 5px 12px;
+    font-weight: bold;
+    color: black;
+    background-color: aliceblue;
+   
+}
+
+  /* artistas */
+
+img{
+    width: 350px;
+    height: 350px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#Artistas{
+    font-weight: bold;
+}
+/* galeria */
+
+
+
+/*Soporte*/
+
+form{
+    
+    border-radius: 20px;
+    width: 400px ;
+    height: 250px;
+    font-family: 'Roboto' , sans-serif;
+    align-items:center;
+    
+}
+
+#formulario{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    
+
+}
+
+.controls{
+    width: 100%;
+    background-color:aliceblue ;
+    padding: 40px;
+    
+}
+
+/* sobre nosotros */
+
+#nosotros{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align:right;
+    flex-direction: column;
+    height: 90vh;
+    color: rgb(102, 14, 218);
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
