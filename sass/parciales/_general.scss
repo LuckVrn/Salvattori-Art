@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 4em !important;
+    font-weight: bold !important;
+  }
+  
+  h2 {
+    font-size: 2em !important;
+  }
+  
+  p {
+    font-size: 1.5 !important;
+  }
+  
+  body {
+    font-family: $font !important;
+    margin: 0 auto;
+    max-width: 100vw;
+    background-color: $color-principal;
+  }
+
+  ul {
+    display: inline;
+    padding-right: 0.3em;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  footer {
+    padding: 5px 12px;
+    font-weight: bold;
+    color: black;
+    background-color: $color-principal;
+  }

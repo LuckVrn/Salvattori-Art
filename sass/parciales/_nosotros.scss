@@ -1,0 +1,27 @@
+/* sobre nosotros */
+#nosotros {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    height: 90vh;
+    color: #660eda;
+  }
+  
+  .grid-text {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 20px;
+  }
+  
+  .grid-image {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-items: stretch;
+  }
+  
+  .grid-image img {
+    width: 55%;
+    height: 100%;
+  }

@@ -1,0 +1,23 @@
+/*Soporte*/
+.formu {
+    border-radius: 20px;
+    width: 700px;
+    height: 300px;
+    font-family: $font;
+    align-items: center;
+  }
+  
+  #formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    height: 90vh;
+  }
+  
+  .controls {
+    width: 100%;
+    background-color: $color-principal;
+    padding: 40px;
+  }

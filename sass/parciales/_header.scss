@@ -1,0 +1,38 @@
+header {
+    background-color: $color-principal;
+  }
+  
+  header .logo {
+    margin: 0;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: #660eda;
+    font-size: 2em;
+  }
+  
+  header .container {
+    display: $flex;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  header .nav {
+    display: $flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  header a {
+    padding: 3px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  
+  header a:hover {
+    color: #660eda;
+  }
+  
