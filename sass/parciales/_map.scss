@@ -1,0 +1,24 @@
+$header:(
+    display: flex,
+    align-items: center,
+    flex-direction: row
+);
+
+$card:(
+    margin: 15px,
+    margin-top: 30px,
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.65)
+);
+
+header a{
+    display: map-get($header , display );
+    flex-direction: map-get($header , flex-direction );
+    align-items: map-get($header , align-items );
+};
+
+.card{
+    margin: map-get($card , margin );
+    margin-top: map-get($card , margin-top );
+    box-shadow: map-get($card, box-shadow );
+};
+

@@ -1,3 +1,15 @@
+header a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card {
+  margin: 15px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.65);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -9,6 +21,12 @@ h1 {
 
 h2 {
   font-size: 2em !important;
+}
+
+.sub-artistas {
+  padding-left: 20px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 p {
@@ -75,6 +93,10 @@ header a {
 
 header a:hover {
   color: #660eda;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+  align-items: center;
 }
 
 .grid {
@@ -207,5 +229,11 @@ button:hover {
   width: 100%;
   background-color: aliceblue;
   padding: 40px;
+}
+
+.sub-formu {
+  padding-left: 20px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 /*# sourceMappingURL=index.css.map */
