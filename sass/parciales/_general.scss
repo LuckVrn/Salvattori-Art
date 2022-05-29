@@ -5,6 +5,8 @@
   h1 {
     font-size: 4em !important;
     font-weight: bold !important;
+    color: #660eda;
+    -webkit-text-stroke: 0.3px rgb(255, 255, 255) ;
   }
   
   h2 {
@@ -43,4 +45,9 @@
     font-weight: bold;
     color: black;
     background-color: $color-principal;
+  }
+
+  .text-white{
+    color: black !important;
+    text-decoration: none;
   }
