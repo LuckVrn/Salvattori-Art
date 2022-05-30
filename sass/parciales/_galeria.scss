@@ -4,15 +4,20 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
+    
+    .grid-galeria > div {
+      width: 30%;
+      margin-top: 30px;
+
+      & img {
+        border: 2px solid black;
+        overflow: hidden;
+        object-fit: cover;
+      }
+
+    }
+    
+
   }
   
-  .grid-galeria > div {
-    width: 30%;
-    margin-top: 30px;
-  }
-  
-  .grid-galeria img {
-    border: 2px solid black;
-    overflow: hidden;
-    object-fit: cover;
-  }
