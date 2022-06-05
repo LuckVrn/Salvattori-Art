@@ -1,0 +1,36 @@
+@media (max-width: 576px) {
+   
+    #nosotros .textoo {
+       text-align:center;
+       font-size: 1.25rem;
+       padding-left: 1px;
+       padding-right: 1px;
+       padding-bottom: 50px;
+       padding-top: 50px;
+       align-items: center;
+       margin: -80px;
+       margin-bottom: 30px;
+       margin-top: 70px;
+       
+    }
+
+    .grid-text h1 {
+        font-size: 2.5em !important;
+        margin: -100px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 576px){
+    #nosotros .textoo{
+        text-align: center;
+        margin: -20px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+
+    }
+
+    footer{
+        margin-top: 100px;
+    }
+}
