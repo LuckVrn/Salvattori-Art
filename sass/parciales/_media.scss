@@ -34,3 +34,25 @@
         margin-top: 100px;
     }
 }
+
+@media (max-width: 576px) {
+    .form{
+        width: 200px;
+        height: 440px;    
+        
+        
+        & h2 {
+        font-size: 1.2rem;
+        }
+    }
+
+    .contacto{
+        width: 150px !important;
+    }
+
+    .soportee{
+        float: left;
+        margin: 75px 35px 0 !important;
+    }
+
+}
